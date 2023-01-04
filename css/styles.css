@@ -1,4 +1,13 @@
+/*@font-face {
+   font-family: Open-700;
+   src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+   font-family: Open-400;
+   src: url(../fonts/OpenSans-Regular.ttf);
+}*/
+
 body{color: rgb(245, 127, 208); 
- font-family: 'Open Sans', sans-serif;   
+ font-family: "Open sans", sans-serif;   
     
     }
