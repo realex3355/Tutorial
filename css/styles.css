@@ -11,3 +11,39 @@ body{color: rgb(245, 127, 208);
  font-family: "Open sans", sans-serif;   
     
     }
+    .site-body {
+}
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.heared-list {
+}
+.header-item {
+}
+.header-link {
+font-size: 12px;
+font-weight: 600;
+line-height: 1,33;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.header-tel {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.header-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
