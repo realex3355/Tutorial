@@ -11,15 +11,34 @@ body{color: rgb(245, 127, 208);
  font-family: "Open sans", sans-serif;   
     
     }
+
+    .list {
+      list-style: none;
+    }
+    .link {
+      text-decoration: none;
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+    }
     .site-body {
 }
+
+/* --------HEADER */
+
 .header {
+   background-color: gray;
 }
 .header-navigation {
 }
 .header-logo {
 }
-.heared-list {
+.header-list {
 }
 .header-item {
 }
@@ -29,6 +48,10 @@ font-weight: 600;
 line-height: 1,33;
 letter-spacing: 0.1em;
 color: #FFFFFF;
+}
+.header-link:hover, 
+.header-link:focus {
+color: #FF6C00;
 }
 .header-tel {
 font-weight: 600;
@@ -46,4 +69,48 @@ line-height: 1.33px;
 letter-spacing: 0.09em;
 text-transform: uppercase;
 color: #FFFFFF;
+cursor: pointer;
 }
+
+/* ----HERO---- */
+.hero {
+   background-color: #504d4d;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+   font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+/* identical to box height */
+
+letter-spacing: 0.2em;
+color: #303030;
+}
+.hero-link:hover, .hero-link:focus {
+color: #FF6C00;   
+}
+.hero-pre-title {
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+
+color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+   font-family: 'Raleway', sans-serif;
+font-size: 72px;
+line-height: 1.18;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+.hero-after-title {
+font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+ 
+} 
